@@ -1,0 +1,24 @@
+{
+  "name": "caiomarcatti12/captcha",
+  "description": "",
+  "type": "library",
+  "version": "2.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Caio Marcatti",
+      "email": "caiomarcatti12@gmail.com"
+    }
+  ],
+  "autoload" : {
+    "psr-4" : {
+      "CaioMarcatti12\\Captcha\\" :  "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require": {
+    "caiomarcatti12/core": "2.0.0",
+    "caiomarcatti12/env": "2.0.0"
+  }
+}

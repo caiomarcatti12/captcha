@@ -1,0 +1,94 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "57f9e012a876095dfd2d7fc880945b8d",
+    "packages": [
+        {
+            "name": "caiomarcatti12/core",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/caiomarcatti12/core.git",
+                "reference": "8f7cf1edeeab75a9c0fdb94f25775998bcd45489"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/caiomarcatti12/core/zipball/8f7cf1edeeab75a9c0fdb94f25775998bcd45489",
+                "reference": "8f7cf1edeeab75a9c0fdb94f25775998bcd45489",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CaioMarcatti12\\Core\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Caio Marcatti",
+                    "email": "caiomarcatti12@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/caiomarcatti12/core/issues",
+                "source": "https://github.com/caiomarcatti12/core/tree/2.0.0"
+            },
+            "time": "2022-11-13T10:49:59+00:00"
+        },
+        {
+            "name": "caiomarcatti12/env",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/caiomarcatti12/env.git",
+                "reference": "22bd04a9200fc5cb9a0861993daeb0e4e7f7b2d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/caiomarcatti12/env/zipball/22bd04a9200fc5cb9a0861993daeb0e4e7f7b2d5",
+                "reference": "22bd04a9200fc5cb9a0861993daeb0e4e7f7b2d5",
+                "shasum": ""
+            },
+            "require": {
+                "caiomarcatti12/core": "2.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CaioMarcatti12\\Env\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Caio Marcatti",
+                    "email": "caiomarcatti12@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/caiomarcatti12/env/issues",
+                "source": "https://github.com/caiomarcatti12/env/tree/2.0.0"
+            },
+            "time": "2022-11-13T11:22:01+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
